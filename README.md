@@ -18,8 +18,4 @@ RestApi
 
 CRUD
 
-Login
-
-Soket
-
 ***

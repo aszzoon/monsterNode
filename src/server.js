@@ -15,6 +15,8 @@ const logger = morgan("dev");
 app.use(logger);
 
 // Mount Routers
+
+app.set("view engine", "pug");
 app.use("/", globalRouter);
 app.use("/users", userRouter);
 app.use("/videos", videoRouter);
